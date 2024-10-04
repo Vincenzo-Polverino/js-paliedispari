@@ -12,10 +12,10 @@ console.log('linked')
 - alert
 - return */
 
-let word =('anna');
-let reverse_word;
+function palindrome (word){
 
-reverse_word = word.split('').reverse().join('')
+
+let reverse_word = word.split('').reverse().join('')
 
     if (word === reverse_word) {
 
@@ -28,3 +28,6 @@ reverse_word = word.split('').reverse().join('')
         
     }
 
+}
+
+palindrome(prompt('Inserisci una parola'))
