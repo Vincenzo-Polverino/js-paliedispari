@@ -19,12 +19,12 @@ let reverse_word = word.split('').reverse().join('')
 
     if (word === reverse_word) {
 
-        console.log('Parola palindroma');
+        return('Parola palindroma');
  
 
 
     } else {
-        console.log('Parola non palindroma');
+        return('Parola non palindroma');
         
     }
 
