@@ -30,4 +30,4 @@ let reverse_word = word.split('').reverse().join('')
 
 }
 
-palindrome(prompt('Inserisci una parola'))
+alert(palindrome(prompt('')))
