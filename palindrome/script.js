@@ -12,22 +12,21 @@ console.log('linked')
 - alert
 - return */
 
-function palindrome (word){
+const word = prompt('Inserisci una parola')
 
+function palindrome(word) {
 
-let reverse_word = word.split('').reverse().join('')
+    let reverse_word = word.split('').reverse().join('')
 
     if (word === reverse_word) {
 
-        return('Parola palindroma');
- 
-
+        return ('Parola palindroma');
 
     } else {
-        return('Parola non palindroma');
-        
+        return ('Parola non palindroma');
+
     }
 
 }
 
-alert(palindrome(prompt('')))
+alert(palindrome(word))
