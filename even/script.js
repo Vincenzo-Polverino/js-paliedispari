@@ -1,9 +1,10 @@
 console.log('linked')
 
-let choice = prompt("Scegli Pari o Dispari")
 
 
-let user_roll = Number(prompt('Scegli un numero da 1 a 5'))
+
+
+function dice_game(choice, user_roll) {
 
 let cpu_roll = Math.floor((Math.random() * 5) + 1);
 
@@ -38,3 +39,6 @@ if ((user_roll + cpu_roll) % 2 === 0 && choice === ('pari')) {
     console.log('Valore non valido');
     
 }
+}
+
+dice_game(prompt("Scegli Pari o Dispari"),Number(prompt('Scegli un numero da 1 a 5')))
